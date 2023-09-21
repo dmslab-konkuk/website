@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/'
+          BASE_PATH: '/leehe228.github.io'
         run: |
           npm run build
           touch build/.nojekyll
