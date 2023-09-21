@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/css/style.css">
+<!-- <link rel="stylesheet" href="/css/style.css"> -->
 
 <script>
     import { base } from '$app/paths';
@@ -8,6 +8,13 @@
         console.log(document);
     })
 </script>
+
+<h3>BASE: {base}</h3>
+
+<nav>
+    <a href="{base}/">Home</a>
+    <a href="{base}/post">Post</a>
+</nav>
 
 <slot>
 
