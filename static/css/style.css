@@ -1,3 +1,190 @@
-h1 {
-    color: blue;
+* {
+    font-family: "San Francisco" !important;
+    /* cursor: none !important; */
+}
+
+/* ===== Main Page ===== */
+
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    background: #fff;
+}
+
+.header {
+    height: 75px;
+    border-bottom: 1px solid #E9E9E9;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header>.header-body {
+    width: 1248px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-body>.subgroup {
+    display: flex;
+    align-items: center;
+}
+
+.header-body>.subgroup>.logo>a {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-menu {
+    margin-left: 36px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 36px;
+}
+
+.header-menu>.menu-item>a {
+    text-decoration: none;
+    color: #777;
+    font-size: 15px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.header-menu>.menu-item>a:hover {
+    color: #5a5a5a;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.search-box {
+    width: 210px;
+    height: 32px;
+    background: #F3F3F3;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lang-toggle {
+    width: 36px;
+    height: 25px;
+    margin-right: 12px;
+    background: #F3F3F3;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.lang-toggle>.lang-icon {
+    width: 21px;
+    height: 21px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.lang-toggle>.down-triangle {
+    width: 6px;
+    height: 6px;
+    margin: 1px 1px 0 3px;
+}
+
+.search-box>img {
+    width: 12px;
+    height: 12px;
+    margin-left: 12px;
+}
+
+.search-box>input {
+    width: 160px;
+    height: 24px;
+    margin: 0 16px 1px 0;
+    border: none;
+    background: #0000;
+    color: #777;
+    font-size: 14px;
+    padding: 2px 1px 0 1px;
+}
+
+.search-box>input[type="text"]:focus {
+    outline: none;
+    border: none;
+}
+
+.lang-select-box {
+    border: 1px solid #E9E9E9;
+    background: #F3F3F3;
+    position: absolute;
+    top: 52px;
+    left: -34px;
+    width: 100px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lang-select-box>.lang-button {
+    height: 28px;
+    width: 100px;
+    padding: 0 5px 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    user-select: none;
+    cursor: pointer;
+}
+
+.lang-select-box>.lang-button>a {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.lang-select-box>.lang-button>img {
+    width: 21px;
+    height: 21px;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-left: 6px;
+    margin-right: 8px;
+}
+
+.div-line {
+    width: 100px;
+    height: 0px;
+    border: 1px solid #E9E9E9;
+}
+
+.hidden {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.content {
+    width: 1248px;
+    padding-top: 48px;
+    margin-top: 75px;
+    z-index: 1;
+    border: 1px solid red;
 }
