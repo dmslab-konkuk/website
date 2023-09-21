@@ -19,9 +19,7 @@
         document.getElementById("lang-toggle-btn")?.addEventListener("click", lang_toggle);
 
         // Custom Cursor
-        // cursor
         var custom_cursor = document.getElementById("custom_cursor");
-        console.log(custom_cursor);
         var body = document.querySelector("body");
         var display_area = document.querySelector("iframe");
 
