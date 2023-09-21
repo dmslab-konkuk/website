@@ -1,0 +1,71 @@
+.custom-cursor {
+    width: 0.9rem;
+    height: 0.9rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    /*사용자 수정*/
+    backface-visibility: hidden;
+    transition: none;
+    mix-blend-mode: difference;
+    /*사용자 수정*/
+    pointer-events: none;
+    border-radius: 50%;
+    transform: scale(1);
+    border: none;
+}
+
+.custom-cursor-icon {
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+    /*사용자 수정*/
+    transition: all .1s ease;
+    transform-origin: 50% 50%
+}
+
+.custom-cursor.custom_cursor_visible {
+    opacity: 1;
+}
+
+.custom-cursor.custom_cursor_hidden {
+    opacity: 0;
+}
+
+@media (pointer:none),
+(pointer:coarse) {
+
+    #custom_cursor,
+    #custom_cursor .custom-cursor-icon {
+        display: none !important;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    * {
+        cursor: auto !important;
+    }
+}
+
+@media (max-width:767.98px) {
+    .custom-cursor {
+        display: none;
+    }
+}
+
+.custom-cursor.custom_cursor_hover .custom-cursor-icon {
+    transform: scale(1.6);
+}
+
+.custom-cursor.custom_cursor_hover_text .custom-cursor-icon {
+    width: 0.14rem;
+    height: 1.2rem;
+    border-radius: 0;
+}
