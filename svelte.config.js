@@ -13,7 +13,8 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : process.env.BASE_PATH,
+			// base: dev ? '' : process.env.BASE_PATH,
+			base: dev ? '' : '/leehe228.github.io',
 		}
 	}
 };
