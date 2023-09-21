@@ -214,6 +214,28 @@ body {
     height: 10px;
 }
 
+/* Horizontal Gallery */
+.h-gallery {
+    height: 326px;
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.h-gallery>.component {
+    height: 100%;
+    min-width: 427px;
+    width: 427px;
+    background: #e2e2e2;
+    border: 1px solid green;
+}
+
 /* ===== Post Page ===== */
 .tag-block {
     width: 100%;
@@ -239,3 +261,4 @@ body {
     align-items: center;
     margin-right: 5px;
 }
+
