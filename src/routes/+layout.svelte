@@ -1,8 +1,8 @@
 <script>
     import { base } from '$app/paths';
-
-    console.log("BASE: " + base);
 </script>
+
+<h3>BASE : {base}</h3>
 
 <nav>
     <a href="{base}/">Home</a>
