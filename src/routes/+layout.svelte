@@ -1,5 +1,7 @@
 <script>
     import { base } from '$app/paths';
+
+    console.log("BASE: " + base);
 </script>
 
 <nav>
