@@ -18,6 +18,7 @@ body {
     border-bottom: 1px solid #E9E9E9;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     display: flex;
     justify-content: center;
     position: fixed;
@@ -209,7 +210,7 @@ body {
 
 /* Spacer */
 .spacer {
-    background: #BFD7AE;
+    /* background: #BFD7AE; */
     width: 100%;
     height: 10px;
 }
@@ -218,7 +219,6 @@ body {
 .h-gallery {
     height: 326px;
     width: 100%;
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -230,10 +230,37 @@ body {
 
 .h-gallery>.component {
     height: 100%;
-    min-width: 427px;
-    width: 427px;
-    background: #e2e2e2;
-    border: 1px solid green;
+    min-width: 472px;
+    width: 472px;
+    /* background: #e2e2e2; */
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.h-gallery>.component>img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    background: #eeeeee;
+}
+
+.h-gallery>.component>.title {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.h-gallery>.component>.subtitle {
+    color: #9C9C9C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /* ===== Post Page ===== */
