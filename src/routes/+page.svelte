@@ -3,23 +3,32 @@
     import { onMount } from 'svelte';
 
     // @ts-ignore
-    function openPost(n) {
-        goto('/post?n=' + n,{replaceState:true});
+    function openPost(to) {
+        // goto('/post?n=' + n,{replaceState:true});
+        window.location.href = to;
     }
 
     onMount(() => {
-        document.getElementById("post0")?.addEventListener("click", () => { openPost(0) });
+        // post click event
+        var post_components = document.getElementsByClassName("component");
+        for (let i = 0; i < post_components.length; i++) {
+            post_components[i].addEventListener('click', () => {
+                if (post_components[i].id !== "") {
+                    openPost(post_components[i].id);
+                }
+            });
+        }
     });
 </script>
 
 <link rel="stylesheet" href="css/font.css">
 <link rel="stylesheet" href="css/style.css">
 
-<div class="content" id="post0">
+<div class="content">
     <div class="t1">포트폴리오</div>
     <div class="spacer" style="height: 26px;"></div>
     <div class="h-gallery">
-        <div class="component" >
+        <div class="component hover" id="post?n=0">
             <img src="database/img/dummy1.png" alt=""/>
             <div class="spacer" style="height: 6px;"></div>
             <div class="title">환경 인식을 키울 수 있게 도와주는 교육용 메타버스, '에코버스'</div>
@@ -33,7 +42,7 @@
                 <div><a>#메타버스</a></div>
             </div>
         </div>
-        <div class="component">
+        <div class="component hover" id="post?n=1">
             <img src="database/img/dummy2.png" alt=""/>
             <div class="spacer" style="height: 6px;"></div>
             <div class="title">GPT-3.5를 활용한 믿을 수 있는 리뷰 플랫폼 서비스, 'COARR GUIDE'</div>
@@ -61,7 +70,7 @@
                 <div><a>#프로젝트</a></div>
             </div>
         </div>
-        <div class="component">
+        <div class="component hover">
             <img src="" alt=""/>
             <div class="spacer" style="height: 6px;"></div>
             <div class="title">COMPONENT_TITLE_TEXT</div>
@@ -79,10 +88,4 @@
     <div class="spacer" style="height: 48px;"></div>
     <div class="t1">수상작</div>
     <div class="spacer" style="height: 26px;"></div>
-    <div class="h-gallery">
-        <div class="component"></div>
-        <div class="component"></div>
-        <div class="component"></div>
-        <div class="component"></div>
-    </div>
 </div>
