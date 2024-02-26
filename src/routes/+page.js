@@ -1,5 +1,7 @@
 export const prerender = true;
 
 export async function load({ fetch }) {
-    return null;
+    const response = await fetch('database/db.json');
+    const jdata = await response.json();
+    return jdata;
 }
