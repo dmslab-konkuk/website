@@ -129,22 +129,22 @@
 
             <div class="header-menu">
                 <div class="menu-item hover">
-                    <a href="/posts">포트폴리오</a>
+                    <a href="/">포트폴리오</a>
                 </div>
                 <div class="menu-item hover">
-                    <a href="/awards">수상작</a>
+                    <a href="/">수상작</a>
                 </div>
                 <div class="menu-item hover">
-                    <a href="/research">연구/개발</a>
+                    <a href="/">연구/개발</a>
                 </div>
                 <div class="menu-item hover">
-                    <a href="/projects">프로젝트</a>
+                    <a href="/">프로젝트</a>
                 </div>
                 <div class="menu-item hover">
-                    <a href="/news">뉴스/클립</a>
+                    <a href="/">뉴스/클립</a>
                 </div>
                 <div class="menu-item hover">
-                    <a href="/about">About Me</a>
+                    <a href="/">About Me</a>
                 </div>
             </div>
         </div>
