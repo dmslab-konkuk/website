@@ -1,9 +1,9 @@
-// export const prerender = true;
+export const prerender = true;
 
 import { error } from '@sveltejs/kit';
 
-export async function load({ url }) {
-    const text = url.searchParams.get('keyword');
+export async function load({ fetch }) {
+    // const text = url.searchParams.get('keyword');
 
-    return { text };
+    // return { text };
 }
