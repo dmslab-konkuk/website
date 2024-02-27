@@ -129,7 +129,7 @@
 
             <div class="header-menu">
                 <div class="menu-item hover">
-                    <a href="/">포트폴리오</a>
+                    <a href="/portfolio">포트폴리오</a>
                 </div>
                 <div class="menu-item hover">
                     <a href="/">수상작</a>
@@ -139,6 +139,9 @@
                 </div>
                 <div class="menu-item hover">
                     <a href="/">프로젝트</a>
+                </div>
+                <div class="menu-item hover">
+                    <a href="/">공부</a>
                 </div>
                 <div class="menu-item hover">
                     <a href="/">뉴스/클립</a>

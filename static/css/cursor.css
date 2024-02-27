@@ -61,7 +61,8 @@
 }
 
 .custom-cursor.custom_cursor_hover .custom-cursor-icon {
-    transform: scale(1.6);
+    /* transform: scale(1.6); */
+    transform: scale(2.0);
 }
 
 .custom-cursor.custom_cursor_hover_text .custom-cursor-icon {

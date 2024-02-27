@@ -243,8 +243,14 @@ body {
 .h-gallery>.component>img {
     width: 100%;
     height: 260px;
+    min-height: 260px;
     object-fit: cover;
     background: #eeeeee;
+    transition: transform 0.3s ease;
+}
+
+.h-gallery>.component>img:hover {
+    transform: scale(1.02);
 }
 
 .h-gallery>.component>.title {
@@ -253,6 +259,13 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.h-gallery>.component>.text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 472px;
 }
 
 .h-gallery>.component>.subtitle {
@@ -287,4 +300,14 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 5px;
+}
+
+.ranking-badge {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #ffc800;
+    border-radius: 10px;
 }

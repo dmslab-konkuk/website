@@ -46,7 +46,56 @@
             </div>
         {/each}
     </div>
+
     <div class="spacer" style="height: 48px;"></div>
+
     <div class="t1">수상작</div>
     <div class="spacer" style="height: 26px;"></div>
+    <div class="h-gallery">
+        {#each typeof data.awards === "undefined" ? [] : data.awards.data as post_content}
+            <div class="component hover" id="post?n={post_content.id}">
+                <img src={post_content.title_image} alt="" />
+                <div class="spacer" style="height: 6px;"></div>
+                <!-- svelte-ignore a11y-missing-attribute -->
+                <div class="title">
+                    <!-- <a class="ranking-badge">{post_content.award_title}</a> -->
+                    <a>{post_content.title}</a>
+                </div>
+                <div class="spacer" style="height: 6px;"></div>
+                <div class="subtitle">{post_content.subtitle}</div>
+                <div class="spacer" style="height: 6px;"></div>
+                <div class="tag-block">
+                    {#each typeof post_content.tags === "undefined" ? [] : post_content.tags.split(",") as tag}
+                        <!-- svelte-ignore a11y-missing-attribute -->
+                        <div><a>#{tag}</a></div>
+                    {/each}
+                </div>
+            </div>
+        {/each}
+    </div>
+
+    <div class="spacer" style="height: 48px;"></div>
+
+    <div class="t1">연구/개발</div>
+    <div class="spacer" style="height: 26px;"></div>
+    <div class="h-gallery">
+        {#each typeof data.research === "undefined" ? [] : data.research.data as post_content}
+            <div class="component hover" id="post?n={post_content.id}">
+                <img src={post_content.title_image} alt="" />
+                <div class="spacer" style="height: 6px;"></div>
+                <div class="title text-truncate">{post_content.title}</div>
+                <div class="spacer" style="height: 6px;"></div>
+                <div class="subtitle">{post_content.subtitle}</div>
+                <div class="spacer" style="height: 6px;"></div>
+                <div class="tag-block">
+                    {#each typeof post_content.tags === "undefined" ? [] : post_content.tags.split(",") as tag}
+                        <!-- svelte-ignore a11y-missing-attribute -->
+                        <div><a>#{tag}</a></div>
+                    {/each}
+                </div>
+            </div>
+        {/each}
+    </div>
+
+    <div class="spacer" style="height: 40px;"></div>
 </div>

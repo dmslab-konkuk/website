@@ -33,14 +33,45 @@
     },
     "awards": {
         "title": "수상작",
-        "data": []
+        "data": [
+            {
+                "id": 0,
+                "category": "수상작",
+                "title": "서울대학교 치과병원 주관 헬스케어 AI 경진대회",
+                "award_title": "대상(1위)",
+                "rank": 1,
+                "subtitle": "인공지능 학습용 데이터 구축사업 구강 이미지 합성데이터를 활용한",
+                "title_image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FAr9Ay%2FbtsFhexHA2X%2FWzcGQHeRjuP9xrazKljNE1%2Fimg.jpg",
+                "tags": "수상작,인공지능,데이터",
+                "contents": "본문이 없습니다"
+            }
+        ]
     },
     "research": {
         "title": "연구/개발",
-        "data": []
+        "data": [
+            {
+                "id": 0,
+                "category": "research",
+                "title": "Google Football Multi-Agent Deep RL 연구",
+                "subtitle": "구글의 풋볼 게임을 활용한 다중 에이전트 강화학습 연구",
+                "title_image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkPyE3%2FbtrXXyxWr27%2FsikVkXiAnkDNkDwReTr9k0%2Fimg.png",
+                "tags": "강화학습,연구",
+                "contents": "본문이 없습니다"
+            },
+            {
+                "id": 1,
+                "category": "paper",
+                "title": "Multi-Agent Reinforcement Learning for Cooperative Air Transportation Services in City-Wide Autonomous Urban Air Mobility (Jun 2023)",
+                "subtitle": "도시 전체 자율형 도시 공중 이동성에서 협력적인 항공 운송 서비스를 위한 다중 에이전트 강화학습",
+                "title_image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbYOgnU%2FbtsE2BnqlG4%2FEycvYu0Fxa0MgP9msvQuL0%2Fimg.png",
+                "tags": "UAM,논문리뷰",
+                "contents": "본문이 없습니다"
+            }
+        ]
     },
-    "paper": {
-        "title": "논문리뷰",
+    "projects": {
+        "title": "프로젝트",
         "data": []
     },
     "study": {
@@ -49,10 +80,6 @@
     },
     "news": {
         "title": "뉴스/클립",
-        "data": []
-    },
-    "projects": {
-        "title": "프로젝트",
         "data": []
     }
 }
