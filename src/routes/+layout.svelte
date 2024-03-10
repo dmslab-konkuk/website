@@ -124,7 +124,9 @@
         <!-- Header Left Subgroup -->
         <div class="subgroup">
             <div id="header-logo" class="logo hover">
-                <a href="/website">DMS Laboratory</a>
+                <a href="https://dmslab-konkuk.github.io/website"
+                    >DMS Laboratory</a
+                >
             </div>
 
             <div class="header-menu">
