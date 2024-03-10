@@ -11,21 +11,21 @@
 
     onMount(() => {
         // post click event
-        var post_components = document.getElementsByClassName("component");
-        for (let i = 0; i < post_components.length; i++) {
-            post_components[i].addEventListener("click", () => {
-                if (post_components[i].id !== "") {
-                    openPost(post_components[i].id);
-                }
-            });
-        }
+        // var post_components = document.getElementsByClassName("component");
+        // for (let i = 0; i < post_components.length; i++) {
+        //     post_components[i].addEventListener("click", () => {
+        //         if (post_components[i].id !== "") {
+        //             openPost(post_components[i].id);
+        //         }
+        //     });
+        // }
     });
 </script>
 
 <link rel="stylesheet" href="css/font.css" />
 <link rel="stylesheet" href="css/style.css" />
 
-<div class="main-gallery-viewer">
+<div class="main-gallery-viewer select-disable">
     <img src="img/test.jpg" alt="" />
 </div>
 
@@ -133,7 +133,12 @@
             Office: Konkuk University New Engineering Building 1207 (건국대학교
             신공학관 1207호)
         </li>
-        <li>Email: dkmin@konkuk.ac.kr (Prof. Dugki Min, Ph.D)</li>
+        <li>
+            Email: <a class="hover" href="mailto:dkmin@konkuk.ac.kr"
+                >dkmin@konkuk.ac.kr</a
+            >
+            (Prof. Dugki Min, Ph.D)
+        </li>
     </p>
     <div class="spacer" style="height: 40px;"></div>
 </div>

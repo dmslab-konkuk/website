@@ -6,22 +6,6 @@
     let lang_toggle_flag = false;
 
     onMount(() => {
-        function lang_toggle() {
-            if (lang_toggle_flag) {
-                document.getElementById("lang-popup")?.classList.add("hidden");
-                lang_toggle_flag = false;
-            } else {
-                document
-                    .getElementById("lang-popup")
-                    ?.classList.remove("hidden");
-                lang_toggle_flag = true;
-            }
-        }
-
-        document
-            .getElementById("lang-toggle-btn")
-            ?.addEventListener("click", lang_toggle);
-
         // Custom Cursor
         var custom_cursor = document.getElementById("custom_cursor");
         var body = document.querySelector("body");
@@ -107,6 +91,13 @@
                 item.addEventListener("mouseleave", custom_unhover_cursor);
             }
         });
+
+        document.querySelectorAll("a").forEach((item) => {
+            if (item.classList.contains("hover")) {
+                item.addEventListener("mouseover", custom_hover_cursor);
+                item.addEventListener("mouseleave", custom_unhover_cursor);
+            }
+        });
     });
 </script>
 
@@ -124,7 +115,14 @@
         <!-- Header Left Subgroup -->
         <div class="subgroup">
             <div id="header-logo" class="logo hover">
-                <div class="logo-group">
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <!-- svelte-ignore a11y-no-static-element-interactions -->
+                <div
+                    class="logo-group select-disable"
+                    on:click={() =>
+                        (window.location.href =
+                            "https://dmslab-konkuk.github.io/website/")}
+                >
                     <img src="img/konkuk_logo.svg" alt="" />
                     <div class="logo-text-group">
                         <!-- svelte-ignore a11y-missing-attribute -->
@@ -139,24 +137,37 @@
         </div>
 
         <div class="subgroup">
-            <div class="header-menu">
+            <div class="header-menu select-disable">
                 <div class="menu-item hover">
-                    <a href="/education">Education</a>
+                    <a href="https://dmslab-konkuk.github.io/website/education"
+                        >Education</a
+                    >
                 </div>
                 <div class="menu-item hover">
-                    <a href="/research">Research</a>
+                    <a href="https://dmslab-konkuk.github.io/website/research"
+                        >Research</a
+                    >
                 </div>
                 <div class="menu-item hover">
-                    <a href="/people">People</a>
+                    <a href="https://dmslab-konkuk.github.io/website/people"
+                        >People</a
+                    >
                 </div>
                 <div class="menu-item hover">
-                    <a href="/publication">Publication</a>
+                    <a
+                        href="https://dmslab-konkuk.github.io/website/publication"
+                        >Publication</a
+                    >
                 </div>
                 <div class="menu-item hover">
-                    <a href="/project">Project</a>
+                    <a href="https://dmslab-konkuk.github.io/website/project"
+                        >Project</a
+                    >
                 </div>
                 <div class="menu-item hover">
-                    <a href="/gallery">Gallery</a>
+                    <a href="https://dmslab-konkuk.github.io/website/gallery"
+                        >Gallery</a
+                    >
                 </div>
                 <div class="menu-item hover">
                     <a href="https://github.com/dmslab-konkuk" target="_blank"

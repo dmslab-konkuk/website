@@ -357,3 +357,10 @@ body {
     background: #ffc800;
     border-radius: 10px;
 }
+
+.select-disable {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
