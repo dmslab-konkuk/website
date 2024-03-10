@@ -166,7 +166,7 @@
             </div> -->
 
             <!-- Search InputText -->
-            <div class="search-box">
+            <!-- <div class="search-box">
                 <img src="./img/search_icon.svg" alt="" />
                 <input
                     type="text"
@@ -187,7 +187,7 @@
                             window.location.href = "/search?keyword=" + keyword;
                         }
                     });
-            </script>
+            </script> -->
 
             <!-- language select box -->
             <div class="lang-select-box hidden" id="lang-popup">
