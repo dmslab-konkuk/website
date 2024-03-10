@@ -124,12 +124,12 @@
         <!-- Header Left Subgroup -->
         <div class="subgroup">
             <div id="header-logo" class="logo hover">
-                <a href="/">DMS Laboratory</a>
+                <a href="/website">DMS Laboratory</a>
             </div>
 
             <div class="header-menu">
                 <div class="menu-item hover">
-                    <a href="/portfolio">포트폴리오</a>
+                    <a href="/">포트폴리오</a>
                 </div>
                 <div class="menu-item hover">
                     <a href="/">수상작</a>
