@@ -25,77 +25,115 @@
 <link rel="stylesheet" href="css/font.css" />
 <link rel="stylesheet" href="css/style.css" />
 
+<div class="main-gallery-viewer">
+    <img src="img/test.jpg" alt="" />
+</div>
+
 <div class="content">
-    <div class="t1">포트폴리오</div>
+    <div class="t1">Introduction to DMS Research Group</div>
+    <p>
+        The DMS research group is currently concentrating on research and
+        development related to Smart Mobility Systems and Bio-Medical/Healthcare
+        intelligent Services based on deep learning-based AI technologies on
+        distributed systems
+    </p>
+
     <div class="spacer" style="height: 26px;"></div>
-    <div class="h-gallery">
-        {#each typeof data.posts === "undefined" ? [] : data.posts.data as post_content}
-            <div class="component hover" id="post?n={post_content.id}">
-                <img src={post_content.title_image} alt="" />
-                <div class="spacer" style="height: 6px;"></div>
-                <div class="title">{post_content.title}</div>
-                <div class="spacer" style="height: 6px;"></div>
-                <div class="subtitle">{post_content.subtitle}</div>
-                <div class="spacer" style="height: 6px;"></div>
-                <div class="tag-block">
-                    {#each typeof post_content.tags === "undefined" ? [] : post_content.tags.split(",") as tag}
-                        <!-- svelte-ignore a11y-missing-attribute -->
-                        <div><a>#{tag}</a></div>
-                    {/each}
-                </div>
-            </div>
-        {/each}
-    </div>
+    <div class="t2">Distributed System Technology</div>
+    <p>
+        By utilizing Cloud Platform Technology, we are currently focusing on the
+        development of “Intelligent Cloud Platform (IFC) for Smart Mobility
+        systems and Healthcare Assistant systems, which is the core of the 4th
+        Industrial Revolution. In particular, we are researching automatic AI
+        platform provisiong service for “Intelligent Cooperative Heatlcare
+        Assistant Agents for oldery people” and “Digital Twin Systems for Urban
+        Air Mobility” application fields. We also research and develop stable
+        and scalable system architecture and intelligent system operation
+        management service.
+    </p>
 
-    <div class="spacer" style="height: 48px;"></div>
-
-    <div class="t1">수상작</div>
     <div class="spacer" style="height: 26px;"></div>
-    <div class="h-gallery">
-        {#each typeof data.awards === "undefined" ? [] : data.awards.data as post_content}
-            <div class="component hover" id="post?n={post_content.id}">
-                <img src={post_content.title_image} alt="" />
-                <div class="spacer" style="height: 6px;"></div>
-                <!-- svelte-ignore a11y-missing-attribute -->
-                <div class="title">
-                    <!-- <a class="ranking-badge">{post_content.award_title}</a> -->
-                    <a>{post_content.title}</a>
-                </div>
-                <div class="spacer" style="height: 6px;"></div>
-                <div class="subtitle">{post_content.subtitle}</div>
-                <div class="spacer" style="height: 6px;"></div>
-                <div class="tag-block">
-                    {#each typeof post_content.tags === "undefined" ? [] : post_content.tags.split(",") as tag}
-                        <!-- svelte-ignore a11y-missing-attribute -->
-                        <div><a>#{tag}</a></div>
-                    {/each}
-                </div>
-            </div>
-        {/each}
-    </div>
+    <div class="t2">Artificial Intelligence Technology</div>
+    <p>
+        Various studies are in progress in relation to AI technology based on
+        deep learning.
+        <li>
+            Intelligent and efficient path planning and control based on Deep
+            Reinforcement Learning (DRL),
+        </li>
+        <li>
+            Distributed Control technology for Swarm Mobility using Distributed
+            Multiagent DRL technology,
+        </li>
+        <li>
+            Human Pose and Activity recognition technology based on Visual
+            Transformer,
+        </li>
+        <li>
+            Object Detection, Face and Emotion Recognition technology using
+            computer vision and widely used deep learning vision models such as
+            CNN, YoLo, ResNet, MobileNet, etc.
+        </li>
+        <li>
+            NLP Research on Knowledge-based Open-Domain Conversational QA and
+            Dialog based on Transformer-based encoder/decoder languate models,
+        </li>
+        <li>
+            Research on QA dataset creation competing Question Generation and
+            Question Answering language models,
+        </li>
+        <li>
+            Intelligent Chatbot technology supporting long-term conversation
+            using Open Domain Knowledge etc.
+        </li>
+    </p>
 
-    <div class="spacer" style="height: 48px;"></div>
-
-    <div class="t1">연구/개발</div>
     <div class="spacer" style="height: 26px;"></div>
-    <div class="h-gallery">
-        {#each typeof data.research === "undefined" ? [] : data.research.data as post_content}
-            <div class="component hover" id="post?n={post_content.id}">
-                <img src={post_content.title_image} alt="" />
-                <div class="spacer" style="height: 6px;"></div>
-                <div class="title text-truncate">{post_content.title}</div>
-                <div class="spacer" style="height: 6px;"></div>
-                <div class="subtitle">{post_content.subtitle}</div>
-                <div class="spacer" style="height: 6px;"></div>
-                <div class="tag-block">
-                    {#each typeof post_content.tags === "undefined" ? [] : post_content.tags.split(",") as tag}
-                        <!-- svelte-ignore a11y-missing-attribute -->
-                        <div><a>#{tag}</a></div>
-                    {/each}
-                </div>
-            </div>
-        {/each}
-    </div>
+    <div class="t2">Core Research Focus</div>
+    <p>
+        <li>
+            Intelligent Mobility Control Technologies based on Multi-Agent Deep
+            Reinforcement Learning and Attentions between agents
+        </li>
+        <li>
+            Human Pose, Activity, Face, Emotion Recognition models based on deep
+            learning for computer vision
+        </li>
+        <li>
+            Open-Domain Converstational QA and Dialog systems based on Graph
+            Knowledge and Self-Attention models
+        </li>
+        <li>
+            Multi-Modal Situation Detection and Context Regonition Servies for
+            Healthcare Assistant
+        </li>
+        <li>
+            Automatic provisioning and intelligent operation management
+            technologies for intelligent cloud platforms (IaaS, PaaS, SaaS,
+            FaaS)
+        </li>
+        <li>
+            Hierarchical Distributed Intelligent Fog and Cloud Cooperative
+            Service Platform technology based on Offloading/Caching technolog
+        </li>
+        <li>
+            Distributed system quality evaluation technology based on stochastic
+            reward net and discrete event simulation
+        </li>
+        <li>
+            Efficient and reusable SW Architecture design technology suitable
+            for domain function and quality requirements
+        </li>
+    </p>
 
+    <div class="spacer" style="height: 26px;"></div>
+    <div class="t2">Contact</div>
+    <p>
+        <li>
+            Office: Konkuk University New Engineering Building 1207 (건국대학교
+            신공학관 1207호)
+        </li>
+        <li>Email: dkmin@konkuk.ac.kr (Prof. Dugki Min, Ph.D)</li>
+    </p>
     <div class="spacer" style="height: 40px;"></div>
 </div>

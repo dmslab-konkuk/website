@@ -124,89 +124,44 @@
         <!-- Header Left Subgroup -->
         <div class="subgroup">
             <div id="header-logo" class="logo hover">
-                <a href="https://dmslab-konkuk.github.io/website"
-                    >DMS Laboratory</a
-                >
-            </div>
-
-            <div class="header-menu">
-                <div class="menu-item hover">
-                    <a href="/">포트폴리오</a>
-                </div>
-                <div class="menu-item hover">
-                    <a href="/">수상작</a>
-                </div>
-                <div class="menu-item hover">
-                    <a href="/">연구/개발</a>
-                </div>
-                <div class="menu-item hover">
-                    <a href="/">프로젝트</a>
-                </div>
-                <div class="menu-item hover">
-                    <a href="/">공부</a>
-                </div>
-                <div class="menu-item hover">
-                    <a href="/">뉴스/클립</a>
-                </div>
-                <div class="menu-item hover">
-                    <a href="/">About Me</a>
+                <div class="logo-group">
+                    <img src="img/konkuk_logo.svg" alt="" />
+                    <div class="logo-text-group">
+                        <!-- svelte-ignore a11y-missing-attribute -->
+                        <a class="header-text-title">DMS Laboratory</a>
+                        <!-- svelte-ignore a11y-missing-attribute -->
+                        <a class="header-text-subtitle"
+                            >Konkuk University, Seoul, Korea</a
+                        >
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Header Right Subgroup -->
-        <div class="subgroup" style="position: relative;">
-            <!-- Language Toggle Button -->
-            <!--
-            <div id="lang-toggle-btn" class="lang-toggle hover">
-                <img class="lang-icon" src="./img/kor.svg" alt="" />
-                <img
-                    class="down-triangle"
-                    src="./img/down_triangle.svg"
-                    alt=""
-                />
-            </div> -->
-
-            <!-- Search InputText -->
-            <!-- <div class="search-box">
-                <img src="./img/search_icon.svg" alt="" />
-                <input
-                    type="text"
-                    id="search-inputtext"
-                    placeholder="검색어를 입력하세요"
-                />
-            </div>
-
-            <script>
-                document
-                    .getElementById("search-inputtext")
-                    .addEventListener("keydown", function (event) {
-                        if (event.key === "Enter") {
-                            const keyword = event.target.value;
-                            if (keyword === "" || keyword.length === 0) {
-                                return;
-                            }
-                            window.location.href = "/search?keyword=" + keyword;
-                        }
-                    });
-            </script> -->
-
-            <!-- language select box -->
-            <div class="lang-select-box hidden" id="lang-popup">
-                <!-- <div class="lang-select-box hidden"> -->
-
-                <div id="lang-btn-kor" class="lang-button">
-                    <img src="./img/kor.svg" alt="" />
-                    <!-- svelte-ignore a11y-invalid-attribute -->
-                    <a href="">KOR</a>
+        <div class="subgroup">
+            <div class="header-menu">
+                <div class="menu-item hover">
+                    <a href="/education">Education</a>
                 </div>
-
-                <div class="div-line"></div>
-
-                <div id="lang-btn-en" class="lang-button">
-                    <img src="./img/en-us.svg" alt="" />
-                    <!-- svelte-ignore a11y-invalid-attribute -->
-                    <a href="">EN-US</a>
+                <div class="menu-item hover">
+                    <a href="/research">Research</a>
+                </div>
+                <div class="menu-item hover">
+                    <a href="/people">People</a>
+                </div>
+                <div class="menu-item hover">
+                    <a href="/publication">Publication</a>
+                </div>
+                <div class="menu-item hover">
+                    <a href="/project">Project</a>
+                </div>
+                <div class="menu-item hover">
+                    <a href="/gallery">Gallery</a>
+                </div>
+                <div class="menu-item hover">
+                    <a href="https://github.com/dmslab-konkuk" target="_blank"
+                        >Github</a
+                    >
                 </div>
             </div>
         </div>
