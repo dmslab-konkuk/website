@@ -111,7 +111,7 @@
 </script>
 
 <link rel="stylesheet" href="css/font.css" />
-<link rel="stylesheet" href="/css/cursor.css" />
+<link rel="stylesheet" href="css/cursor.css" />
 <link rel="stylesheet" href="css/style.css" />
 
 <div id="custom_cursor" class="custom-cursor">
