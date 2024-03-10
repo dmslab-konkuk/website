@@ -124,7 +124,7 @@
         <!-- Header Left Subgroup -->
         <div class="subgroup">
             <div id="header-logo" class="logo hover">
-                <a href="/">Hoeun Lee’s Portfolio</a>
+                <a href="/">DMS Laboratory</a>
             </div>
 
             <div class="header-menu">
