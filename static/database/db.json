@@ -38,6 +38,12 @@
                 "team": "System Team",
                 "teammate": [
                     {
+                        "name_eng": "Ojae Won",
+                        "name_kor": "원오재",
+                        "role": "ms",
+                        "profile": "none"
+                    },
+                    {
                         "name_eng": "MinHee Kang",
                         "name_kor": "강민희",
                         "role": "ms",
