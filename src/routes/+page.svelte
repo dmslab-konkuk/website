@@ -112,7 +112,7 @@
 
 <div class="content">
     <div class="t1">Introduction to DMS Research Group</div>
-    <p>
+    <p class="text-content">
         The DMS research group is currently concentrating on research and
         development related to Smart Mobility Systems and Bio-Medical/Healthcare
         intelligent Services based on deep learning-based AI technologies on
@@ -121,7 +121,7 @@
 
     <div class="spacer" style="height: 26px;"></div>
     <div class="t2">Distributed System Technology</div>
-    <p>
+    <p class="text-content">
         By utilizing Cloud Platform Technology, we are currently focusing on the
         development of “Intelligent Cloud Platform (IFC) for Smart Mobility
         systems and Healthcare Assistant systems, which is the core of the 4th
@@ -135,7 +135,7 @@
 
     <div class="spacer" style="height: 26px;"></div>
     <div class="t2">Artificial Intelligence Technology</div>
-    <p>
+    <p class="text-content">
         Various studies are in progress in relation to AI technology based on
         deep learning.
         <li>
@@ -171,7 +171,7 @@
 
     <div class="spacer" style="height: 26px;"></div>
     <div class="t2">Core Research Focus</div>
-    <p>
+    <p class="text-content">
         <li>
             Intelligent Mobility Control Technologies based on Multi-Agent Deep
             Reinforcement Learning and Attentions between agents
@@ -209,17 +209,19 @@
 
     <div class="spacer" style="height: 26px;"></div>
     <div class="t2">Contact</div>
-    <p>
-        <li>
-            Office: Konkuk University New Engineering Building 1207 (건국대학교
-            신공학관 1207호)
-        </li>
-        <li>
-            Email: <a class="hover" href="mailto:dkmin@konkuk.ac.kr"
-                >dkmin@konkuk.ac.kr</a
-            >
-            (Prof. Dugki Min, Ph.D)
-        </li>
-    </p>
+    <div class="callout">
+        <p class="text-content">
+            <li>
+                Office: Konkuk University New Engineering Building 1207
+                (건국대학교 신공학관 1207호)
+            </li>
+            <li>
+                Email: <a class="hover" href="mailto:dkmin@konkuk.ac.kr"
+                    >dkmin@konkuk.ac.kr</a
+                >
+                (Prof. Dugki Min, Ph.D)
+            </li>
+        </p>
+    </div>
     <div class="spacer" style="height: 40px;"></div>
 </div>
