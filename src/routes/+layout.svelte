@@ -98,6 +98,13 @@
                 item.addEventListener("mouseleave", custom_unhover_cursor);
             }
         });
+
+        document.querySelectorAll("span").forEach((item) => {
+            if (item.classList.contains("hover")) {
+                item.addEventListener("mouseover", custom_hover_cursor);
+                item.addEventListener("mouseleave", custom_unhover_cursor);
+            }
+        });
     });
 </script>
 

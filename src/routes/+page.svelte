@@ -1,12 +1,65 @@
 <script>
+    // @ts-ignore
+    // @ts-ignore
     export let data;
+    // @ts-ignore
+    // @ts-ignore
     import { goto } from "$app/navigation";
     import { onMount } from "svelte";
 
     // @ts-ignore
+    // @ts-ignore
+    // @ts-ignore
     function openPost(to) {
         // goto('/post?n=' + n,{replaceState:true});
         window.location.href = to;
+    }
+
+    let currentIndex = 0;
+    let photoCount = 4; // Update this based on the number of photos
+    let interval;
+
+    function nextPhoto() {
+        // @ts-ignore
+        const photoContainer = document.querySelector(".photo-container");
+        // @ts-ignore
+        // @ts-ignore
+        const photoIndicator = document.querySelector(".photo-indicator");
+
+        const photos = document.querySelectorAll(".photo-container img");
+        const indicators = document.querySelectorAll(".photo-indicator span");
+
+        photos.forEach((photo) => photo.classList.remove("active"));
+        indicators.forEach((indicator) => indicator.classList.remove("active"));
+
+        currentIndex = (currentIndex + 1) % photoCount;
+
+        photos[currentIndex].classList.add("active");
+        indicators[currentIndex].classList.add("active");
+    }
+
+    function startSlideshow() {
+        interval = setInterval(nextPhoto, 5000);
+    }
+
+    // @ts-ignore
+    function changePhoto(event) {
+        // @ts-ignore
+        const photoContainer = document.querySelector(".photo-container");
+        // @ts-ignore
+        // @ts-ignore
+        const photoIndicator = document.querySelector(".photo-indicator");
+
+        const photos = document.querySelectorAll(".photo-container img");
+        const indicators = document.querySelectorAll(".photo-indicator span");
+
+        photos.forEach((photo) => photo.classList.remove("active"));
+        indicators.forEach((indicator) => indicator.classList.remove("active"));
+
+        currentIndex = parseInt(event.currentTarget.dataset.index);
+
+        photos[currentIndex].classList.add("active");
+        indicators[currentIndex].classList.add("active");
     }
 
     onMount(() => {
@@ -19,6 +72,7 @@
         //         }
         //     });
         // }
+        startSlideshow();
     });
 </script>
 
@@ -26,7 +80,34 @@
 <link rel="stylesheet" href="css/style.css" />
 
 <div class="main-gallery-viewer select-disable">
-    <img src="img/test.jpg" alt="" />
+    <div class="photo-container">
+        <img src="img/test1.jpg" alt="" class="active" />
+        <img src="img/test2.jpg" alt="" class="active" />
+        <img src="img/test3.jpg" alt="" class="active" />
+        <img src="img/test4.jpg" alt="" class="active" />
+    </div>
+    <div class="overlay">
+        <div class="main-gallery-title">
+            Distributed Multimedia System Laboratory
+        </div>
+        <div class="main-gallery-subtitle">
+            @Konkuk University, Seoul, Korea
+        </div>
+    </div>
+    <div class="photo-indicator">
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-static-element-interactions -->
+        <span on:click={changePhoto} data-index="0" class="hover active"></span>
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-static-element-interactions -->
+        <span on:click={changePhoto} data-index="1" class="hover"></span>
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-static-element-interactions -->
+        <span on:click={changePhoto} data-index="2" class="hover"></span>
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-static-element-interactions -->
+        <span on:click={changePhoto} data-index="3" class="hover"></span>
+    </div>
 </div>
 
 <div class="content">
