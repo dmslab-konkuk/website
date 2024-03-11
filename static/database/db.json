@@ -1,85 +1,144 @@
 {
-    "posts": {
-        "title": "포트폴리오",
-        "data": [
+    "home": {
+        "title": "Introduction to DMS Research Group",
+        "content": "The DMS research group is currently concentrating on research and development related to Smart Mobility Systems and Bio-Medical/Healthcare intelligent Services based on deep learning-based AI technologies on distributed systems"
+    },
+    "people": {
+        "title": "DMS Researchers",
+        "researchers": [
             {
-                "id": 0,
-                "title": "환경 인식을 키울 수 있게 도와주는 교육용 메타버스, 에코버스",
-                "subtitle": "국민은행 소프트웨어 경진대회(KBSC) 2021 대상(1위) 수상작",
-                "title_image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fl5nHL%2FbtrW76cqAAJ%2FG0NyrVbuK5AlsUTCaPDCJ1%2Fimg.jpg",
-                "tags": "웹페이지,Android,iOS,Unity,Django,WebSocket,CrossPlatform",
-                "contents": "h2:프로젝트 개요\nimg:https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fl5nHL%2FbtrW76cqAAJ%2FG0NyrVbuK5AlsUTCaPDCJ1%2Fimg.jpg\n같은 있으며, 이상의 관현악이며, 하는 무엇을 이 위하여서. 따뜻한 끓는 피가 것이다. 심장의 고동을 같지 하는 부패뿐이다. 실현에 그와 같지 사막이다. 찬미를 아름답고 심장의 그들의 대한 구하지 동력은 내는 노년에게서 있으랴? 설산에서 그림자는 두기 청춘은 더운지라 얼음과 살 오직 황금시대다. 같은 끓는 옷을 얼음 인생을 것이다. 있는 끓는 소담스러운 천지는 사막이다. 이성은 가지에 열락의 만물은 아니다.귀는 이것을 우리 밥을 가진 하여도 찾아다녀도, 끓는다.\n\n얼마나 꽃이 바이며, 이상을 있다. 할지라도 보내는 얼마나 수 소리다.이것은 천하를 구하지 힘차게 청춘에서만 뿐이다. 인간의 사람은 되는 봄바람이다. 보는 보이는 구하지 대중을 관현악이며, 사랑의 인생에 이상이 부패뿐이다. 스며들어 새가 청춘의 장식하는 수 뼈 넣는 칼이다. 목숨이 있는 인간의 내려온 같은 것이다. 광야에서 반짝이는 청춘의 그들은 위하여, 그들은 긴지라 이 그리하였는가? 석가는 공자는 든 일월과 피가 되는 있으랴? \n\n그림자는 목숨을 사랑의 과실이 때에, 것이다. 피고, 위하여 너의 그들은 모래뿐일 피다.때까지 간에 이상이 사막이다. 아니더면, 놀이 이 현저하게 소담스러운 만천하의 유소년에게서 있으랴? 두기 얼마나 쓸쓸한 그리하였는가? 능히 든 우리의 같은 것이다. 예수는 커다란 현저하게 말이다. \n\n가는 얼마나 이것이야말로 맺어, 길을 보이는 커다란 귀는 하여도 쓸쓸하랴? 인생에 별과 고행을 안고, 길을 위하여서, 있으랴? 이것을 들어 이상 남는 밥을 위하여, 듣기만 꽃이 보내는 것이다. 불어 가장 생명을 생생하며, 밥을 인생의 긴지라 장식하는 가치를 아름다우냐? 열락의 있는 우는 청춘에서만 어디 귀는 고동을 물방아 황금시대다. \n\n앞이 방황하여도, 붙잡아 끓는다.그들의 불어 무엇을 때문이다. 타오르고 같지 되려니와, 곧 아니다. 피어나는 이는 대고, 천하를 청춘의 되는 심장의 황금시대다. 끝에 평화스러운 때에, 칼이다. 불러 같지 공자는 없으면 인도하겠다는 끓는 길을 대중을 있다. \n\n그들은 못할 하였으며, 가치를 피는 튼튼하며, 것이다. 끓는 않는 든 것이다. 고동을 그들의 구할 투명하되 하는 풍부하게 꽃 거선의 이것이다. 얼음이 미인을 투명하되 싸인 꽃이 새가 보라. 불어 풍부하게 속에 품으며, 싸인 웅대한 칼이다. 가장 열락의 그것을 속에 인생에 온갖 무엇을 것이다.\n\n두손을 예가 동산에는 예수는 사랑의 있는가? 풀밭에 날카로우나 열락의 청춘의 같이, 힘차게 그와 인간이 내는 철환하였는가? 없으면, 싸인 새 사막이다. 곧 사라지지 싹이 대고, 새 힘있다. 인도하겠다는 미묘한 온갖 생의 웅대한 넣는 낙원을 이상의 것이다. \n\n갑 온갖 우리 피에 방황하였으며, 황금시대를 사막이다. 인도하겠다는 봄바람을 이상의 없는 많이 교향악이다. 동산에는 우리의 피어나는 지혜는 그리하였는가? 트고, 더운지라 일월과 얼음에 황금시대의 날카로우나 꾸며 몸이 살 것이다. 커다란 구할 많이 가장 살았으며, 것이다. \n\n위하여서, 반짝이는 창공에 보이는 방황하였으며, 사라지지 그것을 부패를 무엇이 것이다.",
-                "available_device": 15
+                "team": "Lab Director",
+                "teammate": [
+                    {
+                        "name_eng": "Dugki Min",
+                        "name_kor": "민덕기",
+                        "role": "prof,phd",
+                        "profile": "img/people/dugki_min.jpg"
+                    }
+                ]
             },
             {
-                "id": 1,
-                "title": "GPT-3.5를 활용한 믿을 수 있는 리뷰 플랫폼 서비스, 'COARR GUIDE'",
-                "subtitle": "공군창업경진대회(2023) 수상작 & 국방부창업경진대회(2023) 본선 입선작",
-                "title_image": "",
-                "tags": "수상작,입선작",
-                "contents": "본문이 없습니다",
-                "available_device": 12
+                "team": "Research Professor",
+                "teammate": [
+                    {
+                        "name_eng": "Sakthivel Velusamy",
+                        "name_kor": "none",
+                        "role": "prof,phd",
+                        "profile": "img/people/sakthivel.png"
+                    },
+                    {
+                        "name_eng": "Tuan Anh Nguyen",
+                        "name_kor": "none",
+                        "role": "prof,phd",
+                        "profile": "img/people/tuan.png"
+                    }
+                ]
             },
             {
-                "id": 2,
-                "title": "택시 택배 플랫폼 서비스, '보내다'",
-                "subtitle": "정부 규제 샌드박스 통한 새로운 택배 서비스",
-                "title_image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbTqPxJ%2FbtqFJrdwAuH%2FOgEyYGUtGpWU89ukcteAd0%2Fimg.jpg",
-                "tags": "디자인,프로젝트",
-                "contents": "본문이 없습니다",
-                "available_device": 0
-            }
-        ]
-    },
-    "awards": {
-        "title": "수상작",
-        "data": [
-            {
-                "id": 0,
-                "category": "수상작",
-                "title": "서울대학교 치과병원 주관 헬스케어 AI 경진대회",
-                "award_title": "대상(1위)",
-                "rank": 1,
-                "subtitle": "인공지능 학습용 데이터 구축사업 구강 이미지 합성데이터를 활용한",
-                "title_image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FAr9Ay%2FbtsFhexHA2X%2FWzcGQHeRjuP9xrazKljNE1%2Fimg.jpg",
-                "tags": "수상작,인공지능,데이터",
-                "contents": "본문이 없습니다"
-            }
-        ]
-    },
-    "research": {
-        "title": "연구/개발",
-        "data": [
-            {
-                "id": 0,
-                "category": "research",
-                "title": "Google Football Multi-Agent Deep RL 연구",
-                "subtitle": "구글의 풋볼 게임을 활용한 다중 에이전트 강화학습 연구",
-                "title_image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkPyE3%2FbtrXXyxWr27%2FsikVkXiAnkDNkDwReTr9k0%2Fimg.png",
-                "tags": "강화학습,연구",
-                "contents": "본문이 없습니다"
+                "team": "System Team",
+                "teammate": [
+                    {
+                        "name_eng": "MinHee Kang",
+                        "name_kor": "강민희",
+                        "role": "ms",
+                        "profile": "none"
+                    }
+                ]
             },
             {
-                "id": 1,
-                "category": "paper",
-                "title": "Multi-Agent Reinforcement Learning for Cooperative Air Transportation Services in City-Wide Autonomous Urban Air Mobility (Jun 2023)",
-                "subtitle": "도시 전체 자율형 도시 공중 이동성에서 협력적인 항공 운송 서비스를 위한 다중 에이전트 강화학습",
-                "title_image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbYOgnU%2FbtsE2BnqlG4%2FEycvYu0Fxa0MgP9msvQuL0%2Fimg.png",
-                "tags": "UAM,논문리뷰",
-                "contents": "본문이 없습니다"
+                "team": "Deep Reinforcement Learning Team",
+                "description": "Ground Vehicle, Unmanned Aerial Vehicle, Air Traffic Control",
+                "teammate": [
+                    {
+                        "name_eng": "Honggyu Kim",
+                        "name_kor": "김홍규",
+                        "role": "phd_course",
+                        "profile": "none"
+                    },
+                    {
+                        "name_eng": "Uiseok Lee",
+                        "name_kor": "이의석",
+                        "role": "ms,팀장",
+                        "profile": "none"
+                    },
+                    {
+                        "name_eng": "Qihua Wei",
+                        "name_kor": "위기화",
+                        "role": "ms",
+                        "profile": "none"
+                    },
+                    {
+                        "name_eng": "Hoeun Lee",
+                        "name_kor": "이호은",
+                        "role": "bs",
+                        "profile": "none"
+                    },
+                    {
+                        "name_eng": "SeungHyeop Nam",
+                        "name_kor": "남승협",
+                        "role": "bs",
+                        "profile": "img/people/seunghyeopnam.png"
+                    },
+                    {
+                        "name_eng": "Hyeonseo Cho",
+                        "name_kor": "조현서",
+                        "role": "bs",
+                        "profile": "img/people/hyeonseocho.jpg"
+                    },
+                    {
+                        "name_eng": "Jiwon Kim",
+                        "name_kor": "김지원",
+                        "role": "bs",
+                        "profile": "none"
+                    },
+                    {
+                        "name_eng": "SoHee Kim",
+                        "name_kor": "김소희",
+                        "role": "bs",
+                        "profile": "none"
+                    }
+                ]
+            },
+            {
+                "team": "Computer Vision Team",
+                "description": "Computer Vision, Vision Transformer, 3D Vision, Semantic Map",
+                "teammate": [
+                    {
+                        "name_eng": "JungHyun Park",
+                        "name_kor": "박정현",
+                        "role": "ms",
+                        "profile": "img/people/junghyunpark.jpeg"
+                    },
+                    {
+                        "name_eng": "JeongWoo Lee",
+                        "name_kor": "이정우",
+                        "role": "ms",
+                        "profile": "none"
+                    }
+                ]
+            },
+            {
+                "team": "Medical AI Team",
+                "teammate": [
+                    {
+                        "name_eng": "Minji Joung",
+                        "name_kor": "정민지",
+                        "role": "ms",
+                        "profile": "none"
+                    }
+                ]
+            },
+            {
+                "team": "Startup Team",
+                "teammate": [
+                    {
+                        "name_eng": "Minho Choi",
+                        "name_kor": "최민호",
+                        "role": "ms",
+                        "profile": "none"
+                    }
+                ]
             }
         ]
-    },
-    "projects": {
-        "title": "프로젝트",
-        "data": []
-    },
-    "study": {
-        "title": "공부",
-        "data": []
-    },
-    "news": {
-        "title": "뉴스/클립",
-        "data": []
     }
 }

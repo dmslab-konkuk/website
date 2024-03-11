@@ -224,6 +224,18 @@ body {
     /* border: 1px solid red; */
 }
 
+.content-center {
+    width: 1248px;
+    max-width: 1248px;
+    padding: 0 48px 48px 48px;
+    margin-top: 75px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
 /* .main-gallery-viewer {
     width: 100%;
     height: 560px;
@@ -496,4 +508,89 @@ body {
 .sub-li {
     margin-left: 16px;
     list-style-type: circle;
+}
+
+.profile-alt {
+    width: 120px;
+    height: 120px;
+    background: #ededed;
+    border-radius: 60px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    background: #ededed;
+    object-fit: cover;
+    border-radius: 60px;
+    border: 0.5px solid #d0d0d0;
+}
+
+.profile-name {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 14px;
+    margin-right: 14px;
+    min-width: 120px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-badge-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-badge-container>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 8px 1px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    background: #dfdfdf;
+    margin: 0 3px 0 3px;
+}
+
+.profile-badge-container>.prof {
+    background: linear-gradient(to right, #E599FF, #8F7CFF);
+}
+
+.profile-badge-container>.phd {
+    background: linear-gradient(to right, #ACE1FF, #4FACE0);
+}
+
+.profile-badge-container>.phd-course {
+    background: linear-gradient(to right, #FFACE8, #FF7272);
+}
+
+.profile-badge-container>.ms {
+    background: linear-gradient(to right, #FF9C72, #FF9C72);
+}
+
+.profile-badge-container>.ms-intern {
+    background: linear-gradient(to right, #FF9C72, #FF9C72);
+}
+
+.profile-badge-container>.bs {
+    background: linear-gradient(to right, #98F6E5, #6DE9A6);
+}
+
+.profile-badge-container>.default {
+    background: linear-gradient(to right, #dddddd, #bdbdbd);
 }

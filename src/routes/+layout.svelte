@@ -157,7 +157,7 @@
                 </div>
                 <div class="menu-item hover">
                     <a href="https://dmslab-konkuk.github.io/website/people"
-                        >People</a
+                        >Researchers</a
                     >
                 </div>
                 <div class="menu-item hover">
