@@ -26,7 +26,7 @@
                         {:else}
                             <img
                                 class="profile-img"
-                                src="http://dmslab-konkuk.github.io/img/people/{team_data.profile}"
+                                src={team_data.profile}
                                 alt=""
                             />
                         {/if}

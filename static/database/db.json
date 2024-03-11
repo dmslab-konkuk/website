@@ -13,7 +13,7 @@
                         "name_eng": "Dugki Min",
                         "name_kor": "민덕기",
                         "role": "prof,phd",
-                        "profile": "dugki_min.jpg"
+                        "profile": "img/people/dugki_min.jpg"
                     }
                 ]
             },
@@ -24,13 +24,13 @@
                         "name_eng": "Sakthivel Velusamy",
                         "name_kor": "none",
                         "role": "prof,phd",
-                        "profile": "sakthivel.png"
+                        "profile": "img/people/sakthivel.png"
                     },
                     {
                         "name_eng": "Tuan Anh Nguyen",
                         "name_kor": "none",
                         "role": "prof,phd",
-                        "profile": "tuan.png"
+                        "profile": "img/people/tuan.png"
                     }
                 ]
             },
@@ -83,13 +83,13 @@
                         "name_eng": "SeungHyeop Nam",
                         "name_kor": "남승협",
                         "role": "bs",
-                        "profile": "seunghyeopnam.png"
+                        "profile": "img/people/seunghyeopnam.png"
                     },
                     {
                         "name_eng": "Hyeonseo Cho",
                         "name_kor": "조현서",
                         "role": "bs",
-                        "profile": "hyeonseocho.jpg"
+                        "profile": "img/people/hyeonseocho.jpg"
                     },
                     {
                         "name_eng": "Jiwon Kim",
@@ -113,7 +113,7 @@
                         "name_eng": "JungHyun Park",
                         "name_kor": "박정현",
                         "role": "ms",
-                        "profile": "junghyunpark.jpeg"
+                        "profile": "img/people/junghyunpark.jpeg"
                     },
                     {
                         "name_eng": "JeongWoo Lee",
