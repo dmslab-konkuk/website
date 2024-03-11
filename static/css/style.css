@@ -359,7 +359,7 @@ body {
     color: #1f1f1f;
     font-size: 18px;
     font-style: normal;
-    line-height: normal;
+    line-height: 1.6;
 }
 
 /* Spacer */
@@ -480,4 +480,9 @@ body {
     background: #F1F1F1;
     padding: 8px 16px 8px 16px;
     border-radius: 20px;
+}
+
+.sub-li {
+    margin-left: 16px;
+    list-style-type: circle;
 }

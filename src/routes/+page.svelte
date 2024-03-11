@@ -1,10 +1,10 @@
 <script>
     // @ts-ignore
     // @ts-ignore
-    export let data;
+    // export let data;
     // @ts-ignore
     // @ts-ignore
-    import { goto } from "$app/navigation";
+    // import { goto } from "$app/navigation";
     import { onMount } from "svelte";
 
     // @ts-ignore
