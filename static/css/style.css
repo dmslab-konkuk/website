@@ -28,6 +28,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    padding: 0 48px 0 48px;
 }
 
 .logo-group>img {
@@ -216,7 +217,8 @@ body {
 
 .content {
     width: 1248px;
-    padding: 00 48px 0;
+    max-width: 1248px;
+    padding: 0 48px 48px 48px;
     margin-top: 75px;
     z-index: 1;
     /* border: 1px solid red; */
@@ -274,7 +276,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.15);
     z-index: 1;
     display: flex;
     align-items: center;
@@ -283,14 +285,14 @@ body {
 }
 
 .overlay>.main-gallery-title {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
     color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .overlay>.main-gallery-subtitle {
-    font-size: 24px;
+    font-size: 30px;
     color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -316,6 +318,11 @@ body {
     transition: background-color 0.3s ease-in-out;
 }
 
+.photo-indicator span:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transition: background-color 0.1s ease-in-out;
+}
+
 .photo-indicator span.active {
     background-color: rgba(255, 255, 255, 1);
 }
@@ -326,7 +333,7 @@ body {
 
 .t1 {
     color: #000;
-    font-size: 30px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 1000;
     line-height: normal;
@@ -334,9 +341,24 @@ body {
 
 .t2 {
     color: #000;
-    font-size: 24px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
+    line-height: normal;
+}
+
+.t3 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text-content {
+    color: #1f1f1f;
+    font-size: 18px;
+    font-style: normal;
     line-height: normal;
 }
 
@@ -449,4 +471,13 @@ body {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+.callout {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    background: #F1F1F1;
+    padding: 8px 16px 8px 16px;
+    border-radius: 20px;
 }
