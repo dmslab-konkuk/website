@@ -362,6 +362,17 @@ body {
     line-height: 1.6;
 }
 
+.paper-content {
+    color: #1f1f1f;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.paper-content>li {
+    margin-bottom: 20px;
+}
+
 /* Spacer */
 .spacer {
     /* background: #BFD7AE; */
