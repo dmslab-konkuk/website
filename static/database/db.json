@@ -21,12 +21,6 @@
                 "team": "Research Professor",
                 "teammate": [
                     {
-                        "name_eng": "Sakthivel Velusamy",
-                        "name_kor": "none",
-                        "role": "prof,phd",
-                        "profile": "img/people/sakthivel.png"
-                    },
-                    {
                         "name_eng": "Tuan Anh Nguyen",
                         "name_kor": "none",
                         "role": "prof,phd",
